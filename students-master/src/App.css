@@ -1,0 +1,160 @@
+body {
+    margin: 0 !important;
+    font-family: Inter, sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 70px;
+    background: mediumseagreen;
+    top: 0;
+    left: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 60px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header a:hover {
+    transition: 0.5s;
+    font-size: 19px;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.info {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.export {
+    text-align: right;
+    padding: 20px;
+}
+
+#admin {
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+a {
+    color: black !important;
+}
+
+.intro {
+    background-image: url('Images/background.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.fills {
+    border: 2px solid red;
+}
+
+.getIn {
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.getIn-text {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.getIn-text h3 {
+    margin-bottom: 1.5rem;
+    letter-spacing: -.02em;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 0 10px black;
+}
+
+.lead1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.contact-inp {
+    margin: auto;
+    padding: 50px 0;
+    font-size: 20px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.contact-inp input {
+    height: calc(1.5em + 1.375rem + 2px);
+    background-color: white;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #555a64;
+    border: 1px solid #eaedf2;
+    box-shadow: 0 0 5px black;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.inputs {
+    display: grid;
+}
+
+.inputs label {
+    color: #fff;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 700;
+    text-shadow: 0 0 1px black;
+}
+
+.contact-inp input:focus {
+    outline: 2px solid lightseagreen;
+}
+
+.end {
+    grid-column: 2/2;
+}
+
+.end button {
+    border: 2px solid transparent;
+    padding: .625rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #0090ff;
+    width: 180px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.end button:hover {
+    transition: 0.5s;
+    background-color: #0062b0;
+}
+
+.image {
+    width: 10%;
+}
